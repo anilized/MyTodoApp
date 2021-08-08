@@ -14,6 +14,8 @@
 		679A53ED26C0271800269FDE /* MyTodoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 679A53EB26C0271800269FDE /* MyTodoApp.xcdatamodeld */; };
 		679A53EF26C0271800269FDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 679A53EE26C0271800269FDE /* Assets.xcassets */; };
 		679A53F226C0271800269FDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 679A53F026C0271800269FDE /* LaunchScreen.storyboard */; };
+		679A53FC26C02A9600269FDE /* AddTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679A53FB26C02A9600269FDE /* AddTodoViewController.swift */; };
+		679A53FF26C0363700269FDE /* TodoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679A53FE26C0363700269FDE /* TodoDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		679A53EE26C0271800269FDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		679A53F126C0271800269FDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		679A53F326C0271800269FDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		679A53FB26C02A9600269FDE /* AddTodoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTodoViewController.swift; sourceTree = "<group>"; };
+		679A53FE26C0363700269FDE /* TodoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +66,12 @@
 				679A53E426C0271800269FDE /* SceneDelegate.swift */,
 				679A53E626C0271800269FDE /* ViewController.swift */,
 				679A53E826C0271800269FDE /* Main.storyboard */,
+				679A53FB26C02A9600269FDE /* AddTodoViewController.swift */,
 				679A53EE26C0271800269FDE /* Assets.xcassets */,
 				679A53F026C0271800269FDE /* LaunchScreen.storyboard */,
 				679A53F326C0271800269FDE /* Info.plist */,
 				679A53EB26C0271800269FDE /* MyTodoApp.xcdatamodeld */,
+				679A53FE26C0363700269FDE /* TodoDetailViewController.swift */,
 			);
 			path = MyTodoApp;
 			sourceTree = "<group>";
@@ -141,9 +147,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				679A53E726C0271800269FDE /* ViewController.swift in Sources */,
+				679A53FC26C02A9600269FDE /* AddTodoViewController.swift in Sources */,
 				679A53E326C0271800269FDE /* AppDelegate.swift in Sources */,
 				679A53E526C0271800269FDE /* SceneDelegate.swift in Sources */,
 				679A53ED26C0271800269FDE /* MyTodoApp.xcdatamodeld in Sources */,
+				679A53FF26C0363700269FDE /* TodoDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5Z9G33HZA;
 				INFOPLIST_FILE = MyTodoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anilcan.MyTodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5Z9G33HZA;
 				INFOPLIST_FILE = MyTodoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.anilcan.MyTodoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
